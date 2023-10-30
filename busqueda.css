@@ -1,0 +1,33 @@
+.header > .nav-completo > .botones > .boton > .boton-buscar > .busqueda input {
+    border-radius: 25px;
+    border: 0px;
+    outline: none;
+    padding: 5px 0px 5px 20px;
+    width: 400px;
+    height: 50px;
+    background-color: rgb(189, 189, 189);
+    color: black;
+    letter-spacing: 2px;
+    font-size: 1em;
+    font-weight: 1000;
+}
+
+.header > .nav-completo > .botones > .boton > .boton-buscar > .busqueda input::placeholder {
+    color: black;
+    letter-spacing: 5px;
+    font-size: 1.5em;
+    font-weight: 1000;
+}
+
+.header > .nav-completo > .botones > .boton > .boton-buscar > .busqueda {
+	position: absolute;
+}
+	
+.header > .nav-completo > .botones > .boton > .boton-buscar > .busqueda {
+	display: none;
+}
+	
+.header > .nav-completo > .botones > .boton > .boton-buscar:focus-within .busqueda {
+	display: block;
+    margin-top: 40px;
+}

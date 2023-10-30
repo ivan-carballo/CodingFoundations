@@ -1,0 +1,91 @@
+.header {
+    display: flex;
+    background-color: black;
+    width: 100%;
+	height: 115px;
+}
+
+.header > .logo {
+	display: flex;
+	align-items: center;
+	margin-left: 33px;
+}
+
+.header > .logo img {
+    width: 255px;    
+}
+
+.header > .nav-completo {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.header > .nav-completo > .nav {
+	display: flex;
+	margin-left: 75px;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.header > .nav-completo > .nav > .explore > .explore-link{
+    text-decoration: none;
+    color: yellow;
+	font-size: 1.4em;
+}
+
+.header > .nav-completo > .nav > .nav-link {
+    display: flex;
+}
+
+.header > .nav-completo > .nav > .nav-link > .link {
+    padding: 0px 25px 0px 0px;
+    text-decoration: none;
+    color: white;
+    font-weight: 1000;
+	font-size: 2em;
+}
+
+.header > .nav-completo > .botones {
+	display: flex;
+	align-items: center;
+}
+
+.header > .nav-completo > .botones > .boton {
+	display: flex;
+	align-items: center;
+}
+
+.header > .nav-completo > .botones > .boton button:focus {
+	box-shadow: 3px 2px #c3c4c6;
+}
+
+
+.header > .nav-completo > .botones > .boton > .boton-texto {
+	display: flex;
+	color: white;
+	font-size: 33px;
+	font-weight: 9000;
+	background-color: #36383f;
+	padding: 20px 30px;
+	margin: 0px 10px;
+	border: 0px;
+	cursor: pointer;
+	border-radius: 7px;
+}
+
+.header > .nav-completo > .botones > .boton > .boton-texto i {
+	align-self: center;
+}
+
+.header > .nav-completo > .botones > .boton > .boton-buscar > .boton-lupa{
+	background-color: transparent;
+	margin: 0px 25px;
+	border: 0px;
+	cursor: pointer;	
+	border-radius: 7px;
+}
+
+.header > .nav-completo > .botones > .boton > .boton-buscar > .boton-lupa {
+	font-size: 2.5em; 
+}

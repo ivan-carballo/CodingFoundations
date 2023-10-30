@@ -1,0 +1,47 @@
+.header > .nav-completo > .nav > .nav-link > .nav-desplegable {
+	display: flex;
+	align-items: center;
+	margin-left: 25px;
+}
+
+.header > .nav-completo > .nav > .nav-link > .nav-desplegable > .desplegable {
+	display: flex;
+	background-color: transparent;
+}
+
+.header > .nav-completo > .nav > .nav-link > .nav-desplegable > .desplegable > .desplegable-link {
+	display: flex;
+	align-items: center;
+	font-size: 2em;
+	background-color: transparent;
+	color: #7e7e7e;
+	border: 0px;
+    cursor: pointer;
+}
+
+.header > .nav-completo > .nav > .nav-link > .nav-desplegable > .desplegable > .desplegable-link:hover {
+	background-color: transparent;
+	color: grey;
+}
+
+.header > .nav-completo > .nav > .nav-link > .nav-desplegable > .desplegable {
+	position: absolute;
+}
+	
+.header > .nav-completo > .nav > .nav-link > .nav-desplegable > .desplegable > .desplegable-menu {
+	display: none;
+	background-color: rgb(150, 150, 150);
+}
+	
+.header > .nav-completo > .nav > .nav-link > .nav-desplegable > .desplegable > .desplegable-menu a {
+	color: black;
+    font-size: 20px;
+	padding: 15px;
+	text-decoration: none;
+	display: block;
+}
+	
+.header > .nav-completo > .nav > .nav-link > .nav-desplegable > .desplegable:hover .desplegable-menu {
+	display: block;
+    margin-top: 100px;
+}
